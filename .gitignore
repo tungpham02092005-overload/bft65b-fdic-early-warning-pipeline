@@ -1,0 +1,21 @@
+# Do NOT commit raw or processed data files (per BFT65B exam submission rules)
+data_raw/
+data_processed/
+*.parquet
+*.csv.gz
+*.joblib
+
+# Virtual environments & Python cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+
+# OS & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
